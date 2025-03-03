@@ -1,0 +1,118 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Figtree', sans-serif;
+    background-color: #f4d04e;
+    color: #000000;
+    margin: 0;
+}
+
+/* Container Styles */
+main.container {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left; 
+    border-radius: 15px;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px #000000;
+    background-color: #ffffff;
+}
+
+/* Imagem Styles */
+.illustration {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* Header Styles */
+header h1 {
+    background-color: #f4d04e;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+header .date {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* Article Styles */
+article {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+article h2 {
+    font-size: 20px;
+    color: #f4d04e;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+article p.main {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Author Footer Styles */
+.author-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.author-footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Attribution Footer Styles */
+footer.attribution {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+footer.attribution a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer.attribution a:hover {
+    text-decoration: underline;
+}
